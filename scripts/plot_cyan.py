@@ -115,7 +115,7 @@ vmin = 6000
 vmax = 500000
 
 #! Plot points
-im = ax1.scatter(x,y,5,z,marker='s',alpha=.9,vmin=vmin,vmax=vmax,transform=ccrs.PlateCarree(),cmap="jet",edgecolors='none')
+im = ax1.scatter(x,y,5,z,marker='s',alpha=.9,vmin=vmin,vmax=vmax,transform=ccrs.PlateCarree(),cmap="nipy_spectral",edgecolors='none')
 
 #! Colorbar
 import matplotlib.ticker as ticker
