@@ -118,7 +118,7 @@ vmax = np.percentile(z,95)
 #vmax = 2.25
 
 #! plot points
-im = ax1.scatter(x,y,1,z,marker='s',alpha=.9,vmin=vmin,vmax=vmax,transform=ccrs.PlateCarree(),cmap="jet",edgecolors='none')
+im = ax1.scatter(x,y,1,z,marker='s',alpha=.9,vmin=vmin,vmax=vmax,transform=ccrs.PlateCarree(),cmap="nipy_spectral",edgecolors='none')
 
 #! Colorbar
 cax = fig.add_axes([ax1.get_position().x1+0.01,ax1.get_position().y0,0.02,ax1.get_position().height])
